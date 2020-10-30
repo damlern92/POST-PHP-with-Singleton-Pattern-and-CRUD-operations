@@ -14,7 +14,7 @@ private static $_instance = null;
 public function __construct(){
 	// Connection to database:
 	$this->link = new mysqli($this->host,$this->user,$this->pass,$this->dbname);
-		// Error:
+	// Error:
 	if(!$this->link){
 		$this->error = "Greska u konekciji".$this->link->connect_error;
 		return FALSE;
@@ -31,6 +31,7 @@ public static function getInstance(){
 
 
 // CRUD METHODS:============================
+
 //Select - read
 public function select($query){
 	$result = $this->link->query($query) or die($this->link->error.__LINE__);
