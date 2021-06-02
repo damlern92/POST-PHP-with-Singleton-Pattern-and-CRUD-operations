@@ -18,11 +18,11 @@ $post = new Posts();
 	<div id="wrapper">
 		<div id="header">
 			<div id="logo">
-				<a href="./">Admin panel</a>
+				<a href="./">All Posts</a>
 			</div> <!-- End of logo -->
 			<div id="nav">
 				<ul>
-		          	<li><a href="./">Home</a></li>
+		          	<!-- <li><a href="./">Home</a></li> -->
 		          	<li>
 		            	<a href="insert_post.php">Insert post</a>
 		          	</li>
