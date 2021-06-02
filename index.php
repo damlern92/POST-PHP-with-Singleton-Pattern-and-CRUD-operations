@@ -21,8 +21,8 @@
       <p>
         This is Singleton project with CRUD operations, in this project I'm showing how to update delete and insert post with Singleton patern and CRUD operations.
       </p>
-    </header>
-
+ 
+    <h2 style="padding-left:200px;">List of posts content:</h2>
     <!-- Post Content: -->
       <?php
       // The Second part of HTML included in this page:
@@ -38,7 +38,7 @@
               <a href="update_posts.php?update=<?php echo $result->id; ?>">Edit Post</a>
               <!-- Deleting the post: -->
               <a onclick="return confirm('Da li ste sigurni da li zelite da obrisete ovaj post')" href="?delpost=<?php echo $result->id; ?>" >Delete Post</a>
-            </div><br><hr>
+            </div><br><br>
 
       <?php } ?>
 
