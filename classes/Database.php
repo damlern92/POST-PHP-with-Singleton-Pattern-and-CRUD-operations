@@ -29,6 +29,8 @@ public static function getInstance(){
 	return self::$_instance;
 } // END of getInstance() method
 
+// Forbidden more than one instance
+private function clone(){}
 
 // CRUD METHODS:============================
 
